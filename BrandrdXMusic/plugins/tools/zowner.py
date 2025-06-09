@@ -11,13 +11,13 @@ from BrandrdXMusic.utils.database import add_served_chat, get_assistant
 @app.on_message(filters.command("repo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
-        caption=f"""🍁 𝐏𝐀𝐇𝐋𝐄 𝐉𝐀𝐊𝐄 𝐍𝐎𝐁𝐈𝐓𝐀 𝐊𝐎 𝐏𝐀𝐏𝐀 𝐁𝐎𝐋 🍁""",
+        photo=f"https://files.catbox.moe/zivxwq.jpg",
+        caption=f"""🍁 𝐏𝐀𝐇𝐋𝐄 𝐉𝐀𝐊𝐄 𝐊𝐈𝐍𝐆 𝐊𝐎 𝐏𝐀𝐏𝐀 𝐁𝐎𝐋 🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🍁 sᴏᴜʀᴄᴇ 🍁", url=f"https://t.me/NOBITA_XD1"
+                        "⏤͟͟͞͞𓆩 𝐁ᴏᴛ ꭙ 𝐌ᴀᴋᴇʀ𓆪", url=f"https://t.me/AboutBotMaker"
                     )
                 ]
             ]
@@ -28,13 +28,13 @@ async def help(client: Client, message: Message):
 @app.on_message(filters.command("clone"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/ec19cf227791a167abedc.jpg",
+        photo=f"https://files.catbox.moe/zivxwq.jpg",
         caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner Or Sudo Users For Clone.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🍁 sᴏᴜʀᴄᴇ 🍁", url=f"https://t.me/NOBITA_XD1"
+                        "⏤͟͟͞͞𓆩 𝐁ᴏᴛ ꭙ 𝐌ᴀᴋᴇʀ𓆪", url=f"https://t.me/AboutBotMaker"
                     )
                 ]
             ]
@@ -68,7 +68,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @Knight_Music_Robot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @TARA_X_MUSIC_BOT`**"
         )
         return
 
