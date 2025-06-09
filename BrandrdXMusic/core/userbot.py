@@ -71,10 +71,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("knight_society")
-                await self.one.join_chat("itsRareBeautySelenaGomez")
-                await self.one.join_chat("knight_society")
-                await self.one.join_chat("itsRareBeautySelenaGomez")
+                await self.one.join_chat("KING_BOT_UPDATE")
+                await self.one.join_chat("KING_LINK_PROMOTION")
+                await self.one.join_chat("King_Proof_Update")
+                await self.one.join_chat("AboutBotMaker")
 
             except:
                 pass
@@ -101,10 +101,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("knight_society")
-                await self.two.join_chat("itsRareBeautySelenaGomez")
-                await self.two.join_chat("knight_society")
-                await self.two.join_chat("itsRareBeautySelenaGomez")
+                await self.two.join_chat("KING_BOT_UPDATE")
+                await self.two.join_chat("KING_LINK_PROMOTION")
+                await self.two.join_chat("King_Proof_Update")
+                await self.two.join_chat("AboutBotMaker")
             except:
                 pass
             assistants.append(2)
@@ -125,10 +125,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("knight_society")
-                await self.three.join_chat("itsRareBeautySelenaGomez")
-                await self.three.join_chat("knight_society")
-                await self.three.join_chat("itsRareBeautySelenaGomez")
+                await self.three.join_chat("KING_BOT_UPDATE")
+                await self.three.join_chat("KING_LINK_PROMOTION")
+                await self.three.join_chat("King_Proof_Update")
+                await self.three.join_chat("AboutBotMaker")
             except:
                 pass
             assistants.append(3)
@@ -148,10 +148,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("knight_society")
-                await self.four.join_chat("itsRareBeautySelenaGomez")
-                await self.four.join_chat("knight_society")
-                await self.four.join_chat("itsRareBeautySelenaGomez")
+                await self.four.join_chat("KING_BOT_UPDATE")
+                await self.four.join_chat("KING_LINK_PROMOTION")
+                await self.four.join_chat("King_Proof_Update")
+                await self.four.join_chat("AboutBotMaker")
             except:
                 pass
             assistants.append(4)
@@ -171,10 +171,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("knight_society")
-                await self.five.join_chat("itsRareBeautySelenaGomez")
-                await self.five.join_chat("knight_society")
-                await self.five.join_chat("itsRareBeautySelenaGomez")
+                await self.five.join_chat("KING_BOT_UPDATE")
+                await self.five.join_chat("KING_LINK_PROMOTION")
+                await self.five.join_chat("King_Proof_Update")
+                await self.five.join_chat("AboutBotMaker")
             except:
                 pass
             assistants.append(5)
